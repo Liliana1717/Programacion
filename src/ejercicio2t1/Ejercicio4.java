@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Ejercicio4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println(" INGRESA UN NUMERO");
+        System.out.println(" Ingresa un numero");
         int numero = sc.nextInt();
         System.out.println(" el doble de " + numero + " es " + (numero * 2));
         System.out.println(" el triple de " + numero + " es " + (numero * 3));

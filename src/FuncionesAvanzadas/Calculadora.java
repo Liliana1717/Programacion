@@ -1,7 +1,7 @@
 package FuncionesAvanzadas;
 
 public class Calculadora {
-    public  static int calculadora( int numero1, int numero2){
+    public  static int calculadora(int numero1, int numero2){
 
         return numero1 + numero2;
     }
