@@ -13,16 +13,17 @@ public class Agenda {
 
 
         for (int i = 0; i < 3; i++) {
-            System.out.print("Introduce el nombre de la persona " + (i + 1) );
+            System.out.print("Introduce el nombre de la persona " + (i + 1));
             nombres[i] = sc.nextLine();
             System.out.print("Introduce el teléfono de " + nombres[i]);
             telefonos[i] = sc.nextLine();
+
         }
 
 
         System.out.println("agenda ::  ");
         for (int i = 0; i < 3; i++) {
-            System.out.println( nombres[i] + " tiene el telefono " + telefonos [i]);
+            System.out.println(nombres[i] + " tiene el telefono " + telefonos[i]);
 
         }
         sc.close();
