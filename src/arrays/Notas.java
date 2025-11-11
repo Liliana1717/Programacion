@@ -17,9 +17,14 @@ public class Notas {
             notaLiliana[i] = notasLilianaAuxiliares[i]; // bucle para pasar los datos de un array a otro
 
         }
-        notaLiliana[3] = 7;
+        notaLiliana[3] = 7; // 4 valores
         System.out.println(" notas liliana" + Arrays.toString(notasLilianaAuxiliares));
         System.out.println( "notas " + Arrays.toString(notaLiliana));
+
+        // inicializacion
+
+        int[] masNotas = {6,7,8,7};
+
 
     }
 }
