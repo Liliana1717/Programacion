@@ -11,7 +11,7 @@ public class CuentaCorriente {
         c1.reintegro(20);
         System.out.println(" tras retirar 20 : " + c1.saldo());
 
-        c1. reintegro(40);
+        c1. reintegro(   40);
         System.out.println(" tras retirar 40 : " + c1.saldo());
     }
 }
