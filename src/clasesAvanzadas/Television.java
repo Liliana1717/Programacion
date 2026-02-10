@@ -9,5 +9,6 @@ public class Television extends Producto{
         this.tamaño = tamaño;
         this.sintonizadorTDT = sintonizadorTDT;
     }
+    public  void
 
 }
