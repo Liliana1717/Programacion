@@ -31,10 +31,22 @@ public class Producto {
         }
         return colorA;
     }
+    public void peso(double ancho, double largo, double alto, double pesoFacturable, double pesoVolumen, double max){
+         peso = (ancho * largo * alto) / 5000;
+        pesoVolumen = (ancho * largo * alto)  / 4000;
+      if (peso > pesoVolumen){
+          pesoFacturable =  peso;
+          System.out.println(" peso logistica de transporte " + pesoFacturable);
+      }
+      else {
+          pesoFacturable = pesoVolumen;
 
-    public void PrecioDinamicoConsumo(){
+          System.out.println(pesoFacturable);
 
+      }
 
 
     }
+
+
 }

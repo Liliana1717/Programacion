@@ -9,6 +9,15 @@ public class Television extends Producto{
         this.tamaño = tamaño;
         this.sintonizadorTDT = sintonizadorTDT;
     }
-    public  void
+    public  void medirTamaño(double pulgadas, double precioFinal){
+        if (pulgadas >= 60){
+            precioFinal = precioBase * 0.3;
+            System.out.println( " precio final de la compra :: " + precioFinal);
+
+        }
+
+
+
+    }
 
 }
