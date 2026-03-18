@@ -23,6 +23,15 @@ public class Tienda {
             }
             return null;
    }
+   public VideoJuego buscarPorTitulo (String titulo){
+            for (VideoJuego v : inventario){
+                if (v.getTitulo().equalsIgnoreCase(titulo)){
+                    return v;
+                }
+            }
+            return null;
+   }
+
 
 
 
