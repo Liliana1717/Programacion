@@ -1,12 +1,10 @@
 package Lista;
 
-import java.util.ArrayList;
-import java.util.HashSet;
+import java.util.*;
 
 public class Ejercicio4 {
     public static void main(String[] args) {
-
-        ArrayList<String> colores = new ArrayList<>();
+      List<String> colores = new ArrayList<>();
         colores.add("verde");
         colores.add("morado");
         colores.add("rojo");

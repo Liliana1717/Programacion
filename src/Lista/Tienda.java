@@ -32,6 +32,17 @@ public class Tienda {
             return null;
    }
 
+     public void buscarStock(String titulo){
+            VideoJuego v = buscarPorTitulo(titulo);
+            if (v != null){
+                System.out.println("stock disponible" + v.getStock());
+            }
+            else {
+                System.out.println("");
+            }
+
+     }
+
 
 
 
