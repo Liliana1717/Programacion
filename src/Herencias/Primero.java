@@ -1,0 +1,17 @@
+package Herencias;
+
+public class Primero  extends Plato{
+ private  boolean compartir;
+
+    public Primero(String nombre, double precio, boolean compartir) {
+        super(nombre, precio);
+        this.compartir = compartir;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() +
+                "compartir = " + (compartir  ? " si " : " no ");
+
+    }
+}
